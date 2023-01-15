@@ -3,6 +3,9 @@
 this is my journey of joy and learning. :)
 A collection of projects that I have done or am doing during my continuous learning
 
+Also I would love if you check my latest solutions and work on Frontend Mentor Challenges you will find it [here](https://ahmedelbedfy.github.io/Frontend-Mentor/)
+
+
 <br>
 
 |  #  | Casual Projects                                                                                                         | Live Demo                                                                                         |
