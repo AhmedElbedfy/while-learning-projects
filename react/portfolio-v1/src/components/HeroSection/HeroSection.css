@@ -1,0 +1,141 @@
+.hero {
+  background: url('/images/img-13.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+  animation: animatedBackground 2s alternate;
+  -webkit-animation: animatedBackground 2s alternate;
+}
+
+@keyframes animatedBackground {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.hero-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.hero-container--header {
+  /* margin: 0 6rem 0 6rem */
+}
+
+.hero-container h1 {
+  color: #fff;
+  font-size: 70px;
+  margin-top: -100px;
+  padding: 2rem 8rem 1rem;
+}
+
+.hero-container h2 {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-btns {
+  margin-top: 32px;
+  margin-bottom: 1rem
+}
+
+.hero-btns .btn {
+  margin: 6px;
+}
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+/* arrow */
+
+.hero--down-arrow {
+  color: #fff;
+  font-size: 2.5rem;
+  /* transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg); */
+}
+
+.arrow-anim {
+  animation: down-arrow 2s infinite alternate-reverse;
+  -webkit-animation: down-arrow 2s infinite alternate-reverse;
+}
+
+@keyframes down-arrow {
+  form {
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+  to {
+    transform: translate(0px, 50px);
+    -webkit-transform: translate(0px, 50px);
+    -moz-transform: translate(0px, 50px);
+    -ms-transform: translate(0px, 50px);
+    -o-transform: translate(0px, 50px);
+}
+}
+
+@media screen and (max-width: 1200px) {
+
+  .hero-padding {
+    padding-top: 5rem;
+    background-color: #000;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .hero-padding {
+    padding-top: 2rem;
+  }
+
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .hero-padding {
+    padding-top: 0.5rem;
+  }
+
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+.not-found{
+    background-image: linear-gradient(-30deg, #9bafd9, #25205D);
+    height: 80vh;
+    color: #fff;
+    padding: 7rem;
+}
+
+.not-found--container {
+    margin: auto;
+    text-align: center;
+    justify-self: center;
+}

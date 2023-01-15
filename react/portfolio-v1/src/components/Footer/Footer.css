@@ -1,0 +1,124 @@
+.footer{
+    border-top: 1px solid #fff;
+}
+
+.footer-container {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    color: #fff;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-container a{
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer logo link */
+.footer-logo:hover {
+    transform: rotate(45deg);
+    transition: width 2s ease 0s, height 2s ease 0s, transform 2s ease 0s;
+}
+/* website Rights */
+
+.website-rights {
+    margin: 0 1rem
+}
+
+/* footer Navagation links */
+
+.footer-links {
+    display: flex;
+    border-right: 1px solid #fff;
+    margin-right: 1rem;
+}
+
+.footer-links h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #000
+}
+
+.footer-links h2:hover {
+        /* background-color: #fff; */
+        /* color: #fff; */
+        transition: all 0.3s ease-out;
+        border-bottom: #fff solid 1px;
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+    
+}
+
+/* Icons Style and Hover */
+
+
+.social-media a{
+    width: 1.3rem;
+    height: 1rem;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.facebook:hover{
+    background-color: #1773EA;
+    color: #fff;
+    border: 1px solid #fff;
+  }
+
+  .github:hover {
+    background-color: #E0E0E0;
+    color: #000;
+    border: 1px solid #fff;
+  }
+
+  .linkedin:hover {
+    background-color: #fff;
+    color: #1B88AE;
+    border: 1px solid #fff;
+  }
+
+
+  
+@media screen and (max-width: 855px) {
+    .footer-container {
+        flex-direction: column;
+        height: unset;
+        padding: 1rem;
+    }
+  
+  }
+  
+@media screen and (max-width: 580px) {
+    .wrapper {
+        flex-direction: column;
+    }
+
+    .footer-links {
+        border: none;
+        margin: unset;
+        padding: unset;
+    }
+    .footer-container a {
+        margin: 1.2rem 0.5rem;
+    }
+    .website-rights{
+        margin: 0.7rem 0;
+    }
+  
+  }

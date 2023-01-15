@@ -1,0 +1,42 @@
+.skill-card{
+    /* display: flex; */
+    width: 45%;
+    margin: 0 6px 20px 0;
+}
+
+.progress-container {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin-right: 2rem;
+    height: 22px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    border: 1px solid #cacbe2;
+}
+
+.progress{
+    background-color: #2196F3;
+    color: #fff;
+    height: 100%;
+    padding-left: 1rem;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.load {
+    animation-name: load;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes load {
+    from {width: 20%;}
+    to {width: 90%}
+  }

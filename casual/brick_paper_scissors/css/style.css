@@ -1,0 +1,37 @@
+body {
+    font-family: 'Architects Daughter', cursive;
+    max-height: 50px;
+    text-align: center;
+}
+
+.container {
+    height: 100%;
+}
+
+h1 {
+    padding: 3rem;
+    margin: 0;
+    font-size: 60px;
+    font-family: 'Grandstander', cursive;
+}
+
+img {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+
+.left {
+    width: 50%;
+    background-color: gold;
+}
+
+.right {
+    width: 50%;
+    background-color: aqua;
+}
+
+footer {
+    padding: 1rem;
+}

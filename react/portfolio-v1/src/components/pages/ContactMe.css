@@ -1,0 +1,63 @@
+
+
+.contact-me {
+    padding: 1rem 2rem 2rem 2rem;
+    background-image: linear-gradient(-30deg, #9bafd9, #25205D);
+    color: #C4C4C4;
+    /* background-image: url('/images/contact.jpg'); */
+    /* background-size: 100vw; */
+    background-repeat: no-repeat;
+    height: 85vh;
+}
+
+.contact-me--container {
+    width: 85vw;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-left: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-me--info a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-me--info a:hover {
+    text-decoration: none;
+    color: #c4c4c4;
+    border-bottom: 1px solid #fff;
+    /* font-size: 1.1rem; */ 
+}
+
+.contact-me--head {
+    color: #fff;
+    font-size: 5rem;
+    text-align: left;
+    margin-top: 3.5rem;
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    .moon-img {
+        width: 30rem;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+
+    .moon-img {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .moon-img {
+        display: none;
+    }
+}
