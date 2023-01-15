@@ -28,7 +28,7 @@ A collection of projects that I have done or am doing during my continuous learn
 
 |  #  | Udacity Projects                                                                                       | Live Demo                                                                                 |
 | :-: | ------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------- |
-| 01  | [landing-page](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/udacity/landing-page) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/udacity/landing-page/) |
+| 01  | [landing page](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/udacity/landing-page) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/udacity/landing-page/) |
 | 02  | [api test](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/udacity/api-test)         |                                                                                           |
 
 <br>
