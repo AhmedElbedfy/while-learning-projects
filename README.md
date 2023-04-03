@@ -5,7 +5,6 @@ A collection of projects that I have done or am doing during my continuous learn
 
 Also I would love if you check my latest solutions and work on Frontend Mentor Challenges you will find it [here](https://ahmedelbedfy.github.io/Frontend-Mentor/)
 
-
 <br>
 
 |  #  | Casual Projects                                                                                                         | Live Demo                                                                                         |
@@ -17,6 +16,7 @@ Also I would love if you check my latest solutions and work on Frontend Mentor C
 | 05  | [sample dice game](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/sample_dice_game)           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/sample_dice_game/)      |
 | 06  | [drum kit](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/drum_kit)                           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/drum_kit/)              |
 | 07  | [brick paper scissors](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/brick_paper_scissors)   | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/brick_paper_scissors/)  |
+| 07  | [Little Lemon v2](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/little-lemon-v1)             | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/little-lemon-v1/)       |
 
 <br>
 
