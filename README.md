@@ -39,7 +39,7 @@ Also I would love if you check my latest solutions and work on Frontend Mentor C
 |  #  | Bootstrap Projects                                                                                                               | Live Demo                                                                                                  |
 | :-: | -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
 | 01  | [Bondi landing page](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/bootstrap/Bondi-landing-page-template)    | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/bootstrap/Bondi-landing-page-template/) |
-| 01  | [bootstrap ninja tutorial](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/bootstrap/bootstrap-ninja-tutorial) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/bootstrap/bootstrap-ninja-tutorial/)    |
+| 02  | [bootstrap ninja tutorial](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/bootstrap/bootstrap-ninja-tutorial) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/bootstrap/bootstrap-ninja-tutorial/)    |
 
 ## Author
 
