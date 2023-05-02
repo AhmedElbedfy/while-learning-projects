@@ -1,100 +1,89 @@
+"use strict";
 
-var gamePattern = [];
-var userClickedPattern = [];
+/* ------------------------------- Game States ------------------------------ */
+let gamePattern = [];
+let userPattern = [];
+let gameOver = false;
 
-var level = 0;
+/* ---------------------------- Helpers Functions ---------------------------- */
+// Helper function --> handleGameOver
+function handleGameOver() {
+    // update Game States
+    gameOver = true;
+    gamePattern = []
 
-var started = false;
+    // update UI
+    clickEffect("body", "game-over")
 
-$(document).keydown(function() {
-    if (!started){
-        nextSequence();
-        started = true;
-    }    
-});
-
-// when btn clicked call handler
-$(".btn").click(clickHandler);
-
-function nextSequence() {
-
-    //chosse random button
-    var buttonColors = ["red", "blue", "green", "yellow"];
-    var randomNum = Math.floor(Math.random() * 4);
-    var randomChosenColor = buttonColors[randomNum];
-
-    //save pattern in list
-    gamePattern.push(randomChosenColor);
-
-    //next sequence button flash
-    $("#" + randomChosenColor).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
-
-    //next sequence color sound
-    playSound(randomChosenColor);
-
-    //updata header text
-    $("h1").text("Level " + level);
-    
-    //level increment
-    level++;
+    // Make game over sound
+    makeSoundEffect("wrong")
 
 }
 
-function clickHandler(e) {
-    //when i click with mouse on one of the buttons
-
-    var userChosenColor = e.target.id;
-
-    userClickedPattern.push(userChosenColor);
-
-    playSound(userChosenColor);
-    animatePress(userChosenColor);
-
-    var currentLvl = userClickedPattern.length - 1;
-    checkAnswer(currentLvl);
-
+// Helper function --> clickEffect update UI to make the click effect
+function clickEffect(element, cssClass = "pressed") {
+    $(element).addClass(cssClass)
+    setTimeout(() => { $(element).removeClass(cssClass) }, 100)
 }
 
-function playSound(name) {
-    var colorSoundPath = ("sounds/" + name + ".mp3");
-    var ColorSound = new Audio(colorSoundPath);
-    ColorSound.play();
+
+// Helper function --> makeSoundEffect
+function makeSoundEffect(soundSrcName) {
+    let sound = new Audio(`sounds/${soundSrcName}.mp3`)
+    sound.play()
 }
 
-function animatePress(currentColor) {
-    var currentColorId = "#" + currentColor;
-    $(currentColorId).addClass("pressed");
-    setTimeout(function () { $(currentColorId).removeClass("pressed") }, 100);
+// Helper function --> nextPattern
+function nextPattern() {
+    // make sure the game state in the right condition to play
+    gameOver = false;
+    userPattern = [];
+
+    // chose random number for the next pattern
+    const randomChoice = Math.floor(Math.random() * 4);
+
+    // update UI, make sound and add the pattern to game states
+    clickEffect($(".btn")[randomChoice])
+    makeSoundEffect($(".btn")[randomChoice].id)
+    gamePattern.push($(".btn")[randomChoice].id)
 }
 
-function checkAnswer(currentLvl) {
-    // >>> ??
+/* ----------------------------- Action Handlers ---------------------------- */
+function newGameHandle() {
+    if (gameOver || gamePattern.length === 0) {
+        $("h1").text(`Level ${gamePattern.length + 1}`)
+        nextPattern()
+    }
+}
 
-    if (gamePattern[currentLvl] == userClickedPattern[currentLvl]) {
-        console.log("success");
-    } else {
-        console.log("wrong");
-        playSound("wrong");
-        $("h1").text("Game Over, Press Any Key to Restart");
-        $("body").addClass("game-over");
 
-        setTimeout(function () { $("body").removeClass("game-over") }, 200);
-        
-        startOver();
+function handleButtonClick(e) {
+    // update the UI && make the button sound
+    clickEffect(e.currentTarget)
+    makeSoundEffect(e.currentTarget.id)
 
+    // add the clicked button to the pattern of the user
+    // to compare it with the game pattern
+    userPattern.push(e.currentTarget.id)
+
+    // compare the user pattern with the game pattern
+    for (let [index, pattern] of userPattern.entries()) {
+        if (pattern !== gamePattern[index]) handleGameOver()
     }
 
-    if (gamePattern.length == userClickedPattern.length) {
-        userClickedPattern = [];
-        setTimeout(nextSequence(), 1000);
+    // check if the game pattern is equal to the user pattern 
+    // go to the next pattern in the game (next level)
+    if (gamePattern.length === userPattern.length) {
+        $("h1").text(`Level ${gamePattern.length + 1}`) // update the heading word
+        nextPattern();
     }
-
 }
 
-function startOver() {
-    gamePattern = [];
-    userClickedPattern = [];
-    level = 0;
-    started = false;
-    detectKeyToStart();
-}
+/* ---------------------------- Events listeners ---------------------------- */
+// Push any button to start the game or restart the game
+$(document).keydown(newGameHandle)
+
+// handle when a button clicked
+$(".btn").click(handleButtonClick)
+
+
