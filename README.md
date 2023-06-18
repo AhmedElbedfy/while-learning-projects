@@ -10,13 +10,14 @@ Also I would love if you check my latest solutions and work on Frontend Mentor C
 |  #  | Casual Projects                                                                                                         | Live Demo                                                                                         |
 | :-: | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 | 01  | [pink portfolio](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/pink-portfolio)               | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/pink-portfolio/)        |
-| 02  | [error 404](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/error-404)                         | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/error-404/)             |
-| 03  | [todo vanilla tutorial](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/todo-vanilla-tutorial) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/todo-vanilla-tutorial/) |
-| 04  | [simon game](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/simon-game)                       | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/simon-game/)            |
-| 05  | [sample dice game](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/sample_dice_game)           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/sample_dice_game/)      |
-| 06  | [drum kit](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/drum_kit)                           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/drum_kit/)              |
-| 07  | [brick paper scissors](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/brick_paper_scissors)   | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/brick_paper_scissors/)  |
-| 08  | [Little Lemon v2](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/little-lemon-v1)             | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/little-lemon-v1/)       |
+| 02  | [Hisham Simple Page](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/Hisham%20Simple%20CV)     | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/Hisham%20Simple%20CV/)  |
+| 03  | [error 404](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/error-404)                         | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/error-404/)             |
+| 04  | [todo vanilla tutorial](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/todo-vanilla-tutorial) | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/todo-vanilla-tutorial/) |
+| 05  | [simon game](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/simon-game)                       | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/simon-game/)            |
+| 06  | [sample dice game](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/sample_dice_game)           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/sample_dice_game/)      |
+| 07  | [drum kit](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/drum_kit)                           | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/drum_kit/)              |
+| 08  | [brick paper scissors](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/brick_paper_scissors)   | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/brick_paper_scissors/)  |
+| 09  | [Little Lemon v2](https://github.com/AhmedElbedfy/while-learning-projects/tree/main/casual/little-lemon-v1)             | [Live Demo](https://ahmedelbedfy.github.io/while-learning-projects/casual/little-lemon-v1/)       |
 
 <br>
 
