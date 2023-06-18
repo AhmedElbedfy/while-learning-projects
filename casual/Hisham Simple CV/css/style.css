@@ -1,0 +1,76 @@
+:root {
+    --main: #8a2be2;
+}
+
+/* start global classes */
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Aref Ruqaa Ink", serif;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    padding: 0 1rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+h1,
+h2 {
+    color: var(--main);
+}
+
+a {
+    border-radius: 6px;
+    color: #fff;
+    background-color: var(--main);
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid var(--main);
+    display: inline-block;
+    margin: 8px 0;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    color: var(--main);
+    background-color: #fff;
+    border: 1px solid var(--main);
+}
+
+/* end global classes */
+
+/*  Start career  */
+.career table {
+    border-spacing: 1rem;
+}
+/*  End career  */
+
+/*  Start Footer  */
+.footer {
+    text-align: center;
+    margin: 4rem 0 1rem;
+    font-size: 0.75rem;
+}
+/*  End Footer  */
+
+/* start Media query for the screen bigger than 700px */
+@media only screen and (min-width: 700px) {
+    p {
+        width: 650px;
+    }
+
+    .container {
+        width: 650px;
+        margin: 0 auto;
+    }
+}
+/* End Media query */
